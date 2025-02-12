@@ -11,7 +11,7 @@ const ESummitHero = () => {
     <div className="min-h-screen bg-gradient-to-b from-emerald-900 to-black p-8 text-white">
       {/* Navbar */}
       <nav
-        className={`flex items-center justify-between px-6 py-4 bg-opacity-20 backdrop-blur-lg rounded-full shadow-lg border border-gray-300/10 ${
+        className={`flex items-center justify-between px-6 py-4 bg-white bg-opacity-10 backdrop-blur-lg rounded-full shadow-lg border border-white/20 transition-all duration-300 font-[Outfit] ${
           isMenuOpen ? 'pb-24' : ''
         }`}
       >
